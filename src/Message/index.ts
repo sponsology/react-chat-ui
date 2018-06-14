@@ -22,6 +22,6 @@ export default class Message {
     this.id = messageData.id; // id of the sender (0 is reserved for "blue bubble")
     this.message = messageData.message;
     this.senderName = messageData.senderName || undefined;
-    this.time = messageData.senderName || undefined;
+    this.time = messageData.time || undefined;
   }
 }
