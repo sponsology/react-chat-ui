@@ -49,6 +49,7 @@ export default class ChatBubble extends React.Component {
         <div style={chatBubbleStyles}>
           <p style={{ ...styles.p, ...text }}>{this.props.message.message}</p>
         </div>
+        <div>{this.props.message.time}</div>
       </div>
     );
   }
